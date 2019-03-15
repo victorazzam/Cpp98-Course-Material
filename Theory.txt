@@ -1,0 +1,32 @@
+Two's complement
+================
+
+000 = 0
+001 = 1
+010 = 2
+011 = 3
+100 = -4
+101 = -3
+110 = -2
+111 = -1
+
+0010 (2) +
+0110 (-2) =
+1000 -> discard overflow bit -> 000 (0)
+
+Positive to negative conversion:
+ • subtract 1
+ • flip all bits
+
+
+Libraries
+=========
+
+Program creation order:
+ • Preprocessor
+ • Compiler (.o files)
+ • Linker (.exe files)
+
+Types:
+ • Static: compiled with the source files (.lib or .a)
+ • Dynamic: used during runtime (.dll or .so or .dylib)
